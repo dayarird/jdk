@@ -2,11 +2,13 @@
 
 ##### Dayarí Rodríguez Delgado. 1º DAM.
 
+
+
 #### Para esta tarea he tenido una serie de dificultades, la primera fue la siguiente imagen:
 
 ![image_50388225](https://user-images.githubusercontent.com/91153603/134592191-744d37a7-33f2-4eb5-b1dd-8033549ba1aa.JPG)
 
-#### Después de conseguir un pórtatil logré instalar VirtualBox y Ubuntu, aunque para la instalación de Ubuntu me llevó casi 12 horas, al final logré hacerlo.  Siguente imagen:
+#### Después de conseguir un pórtatil prestado, logré instalar VirtualBox y Ubuntu, aunque para la instalación de Ubuntu me llevó casi 12 horas, al final logré hacerlo.  Siguente imagen:
 
 ![IMG_2026](https://user-images.githubusercontent.com/91153603/134593209-6f1a3c81-ea9f-435b-8b4c-1fd4ac35b6a2.jpg)
 
@@ -14,7 +16,7 @@
 
 ![IMG_2027](https://user-images.githubusercontent.com/91153603/134593652-77b7befc-28ea-483f-bb7c-e2a4615fb0c0.jpg)
 
-####  No he tenido  mayores problemas usando la guía del profesor. Siguientes imagenes:
+####  No he tenido mayores problemas usando la guía del profesor. Actualizé el sistema con: sudo apt-get update, instalé el java con el siguiente comando: sudo apt-get install default-jdk. Siguientes imagenes:
 
 ![IMG_2028](https://user-images.githubusercontent.com/91153603/134593870-f5dec2fe-5a51-4de2-91d5-f61cf7845ecb.jpg)
 
@@ -28,7 +30,7 @@
 
 ![IMG_2034](https://user-images.githubusercontent.com/91153603/134594423-2814b1ff-368b-494b-8458-c003f64d8782.jpg)
 
-####  He tenido varios problemas para lograr usar java 8, pero después de ivestigar los comandos de la guía he podido lograrlo. Siguientes imégenes:
+#### Después de verificar que versión del java tenía con: java --version, comprobé que tenía la versión 11. Comencé a descargarme la versión 9 y 8. La 9 no la logré descargar me mostraba error. Pero la 8 si logré descargarla sin maás problemas.Utilicé los siguientes comandos: sudo apt install openjdk-9-jdk y sudo apt indtall openjdk-8-jdk. Siguientes imégenes:
 
 ![IMG_2035](https://user-images.githubusercontent.com/91153603/134594787-c700f339-2fa0-42d8-9c3e-20aabd563a4e.jpg)
 
@@ -42,7 +44,7 @@
 
 ![IMG_2040](https://user-images.githubusercontent.com/91153603/134594904-3b25a253-d1b0-455a-a68b-98b790249ff5.jpg)
 
-#### Después de realizar esta primera tarea, he aprendido que nunca hay bajar los brazos, siempre habrá un comando o algún tipo de ayuda que te hará lograr lo que te propongas.
+#### Luego, utilicé el comando: sudo update-alternative --config java, para elegir que Java usar, pero al hacerlo me daba error. Entonces volví sobre mis pasos y volvía a seguir la guía del profesor. Ulilizando el comando: nano /etc/profile. Y Después de realizar los cambios pertinentes, al verificar que version utilizamos comprobé con el comando: java -version, que tenía ativado el Java 8.
 
 
 
