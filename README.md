@@ -44,7 +44,7 @@
 
 ![IMG_2040](https://user-images.githubusercontent.com/91153603/134594904-3b25a253-d1b0-455a-a68b-98b790249ff5.jpg)
 
-#### Luego, utilicé el comando: sudo update-alternative --config java, para elegir que Java usar, pero al hacerlo me daba error. Entonces volví sobre mis pasos y volvía a seguir la guía del profesor. Ulilizando el comando: nano /etc/profile. Y Después de realizar los cambios pertinentes, al verificar que version utilizamos comprobé con el comando: java -version, que tenía ativado el Java 8.
+#### Luego, utilicé el comando: sudo update-alternative --config java, para elegir que Java usar, pero al hacerlo me daba error. Entonces volví sobre mis pasos y volvía a seguir la guía del profesor. Ulilizando el comando: nano /etc/profile. Y Después de realizar los cambios pertinentes, al verificar que version utilizamos comprobé con el comando: java -version, que tenía ativo el Java 8.
 
 
 
